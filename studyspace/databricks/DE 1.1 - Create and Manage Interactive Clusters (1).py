@@ -2,27 +2,20 @@
 # MAGIC %md-sandbox
 # MAGIC 
 # MAGIC <div style="text-align: center; line-height: 0; padding-top: 9px;">
-# MAGIC   <img src="https://databricks.com/wp-content/uploads/2018/03/db-academy-rgb-1200px.png" alt="Databricks Learning" style="width: 600px">
+# MAGIC   <img src="https://www.databricks.com/wp-content/uploads/2022/06/db-nav-logo-stacked-white-desktop.svg" alt="Databricks" title="Databricks" style="width:300px">
 # MAGIC </div>
 
 # COMMAND ----------
 
 # MAGIC %md
 # MAGIC   
-# MAGIC # Create and Manage Interactive Clusters
+# MAGIC # Getting start with Databricks
 # MAGIC 
 # MAGIC A Databricks cluster is a set of computation resources and configurations on which you run data engineering, data science, and data analytics workloads, such as production ETL pipelines, streaming analytics, ad-hoc analytics, and machine learning. You run these workloads as a set of commands in a notebook or as an automated job. 
 # MAGIC 
 # MAGIC Databricks makes a distinction between all-purpose clusters and job clusters. 
 # MAGIC - You use all-purpose clusters to analyze data collaboratively using interactive notebooks.
 # MAGIC - You use job clusters to run fast and robust automated jobs.
-# MAGIC 
-# MAGIC This demo will cover creating and managing all-purpose Databricks clusters using the Databricks Data Science & Engineering Workspace. 
-# MAGIC 
-# MAGIC ## Learning Objectives
-# MAGIC By the end of this lesson, you should be able to:
-# MAGIC * Use the Clusters UI to configure and deploy a cluster
-# MAGIC * Edit, terminate, restart, and delete clusters
 
 # COMMAND ----------
 
@@ -46,15 +39,6 @@
 # MAGIC 1. Click the blue **Create Cluster** button
 # MAGIC 
 # MAGIC **NOTE:** Clusters can take several minutes to deploy. Once you have finished deploying a cluster, feel free to continue to explore the cluster creation UI.
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC 
-# MAGIC ### <img src="https://files.training.databricks.com/images/icon_warn_24.png"> Single-Node Cluster Required for This Course
-# MAGIC **IMPORTANT:** This course requires you to run notebooks on a single-node cluster. 
-# MAGIC 
-# MAGIC Follow the instructions above to create a cluster that has **Cluster mode** set to **`Single Node`**.
 
 # COMMAND ----------
 
@@ -90,11 +74,3 @@
 # MAGIC The **Terminate** button allows us to stop our cluster. We maintain our cluster configuration setting, and can use the **Restart** button to deploy a new set of cloud resources using the same configuration.
 # MAGIC 
 # MAGIC The **Delete** button will stop our cluster and remove the cluster configuration.
-
-# COMMAND ----------
-
-# MAGIC %md-sandbox
-# MAGIC &copy; 2022 Databricks, Inc. All rights reserved.<br/>
-# MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="https://www.apache.org/">Apache Software Foundation</a>.<br/>
-# MAGIC <br/>
-# MAGIC <a href="https://databricks.com/privacy-policy">Privacy Policy</a> | <a href="https://databricks.com/terms-of-use">Terms of Use</a> | <a href="https://help.databricks.com/">Support</a>
